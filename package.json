@@ -1,6 +1,6 @@
 {
   "name": "rich-text-to-html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "return html string from contentful rich text fieild",
   "main": "index.js",
   "scripts": {
