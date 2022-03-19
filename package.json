@@ -1,11 +1,14 @@
 {
   "name": "rich-text-to-html",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "return html string from contentful rich text fieild",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Klimonov/rich-text-to-html.git"
