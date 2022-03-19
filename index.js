@@ -57,9 +57,8 @@ const richTextToHtmlString = ({ content, data, nodeType, value, marks }) => {
         case 'hyperlink':
             return `<a href=${data.uri} target="_blank">${nodeContentRenderer(content)}</a>`
         case 'embedded-asset-block':
-            return `<img alt="${data.target.fields.title}" src=https:${data.target.fields.file.url}>`
         case 'asset-hyperlink':
-            return `<img alt="${data.target.fields.title}" src=https:${data.target.fields.file.url}>`
+            return `<img alt="${data.target.fields.title}" src=${data.target.fields.file.url}>`
         default:
             return ''
     }
