@@ -84,22 +84,10 @@ const document = {
                     }
                 }
             }
-        },
-        {
-            nodeType: "paragraph",
-            content: [
-                {
-                    nodeType: "text",
-                    value: "custom text",
-                    marks: [],
-                    data: {}
-                }
-            ],
-            data: {}
         }
     ]
 };
-richTextToHtmlString(document); // -> <h2>Casino ads</h2><p>custom text</p><img alt="Banner" src="https://images.ctfassets.net/.../image.webp"><p>custom text</p>
+richTextToHtmlString(document); // -> <h2>Casino ads</h2><p>custom text</p><img alt="Banner" src="https://images.ctfassets.net/.../image.webp">
 ```
 <br>
 
